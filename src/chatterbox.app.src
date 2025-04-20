@@ -2,7 +2,7 @@
 {application, chatterbox,
  [
   {description, "chatterbox library for http2"},
-  {vsn, git},
+  {vsn, "0.7.0"},
   {registered, []},
   {applications, [
                   kernel,

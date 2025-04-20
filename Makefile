@@ -33,6 +33,7 @@ endif
 clean: $(REBAR3)
 	@$(REBAR3) $(REBAR_CLEAN)
 	rm -rf _build .rebar ebin deps
+	@$(REBAR3) compile
 
 all: $(REBAR3)
 	@$(REBAR3) $(REBAR_ALL)
